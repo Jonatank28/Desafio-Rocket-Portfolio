@@ -1,0 +1,18 @@
+.container-main{
+  max-width: 1700px;
+  margin: 0 auto;
+
+  display: flex;
+  width: 100%;
+  gap: 60px;
+}
+
+.container-esquerdo{
+  width: 25%;
+  margin: 40px 0px 0px 40px;
+}
+
+.container-direito{
+  width: 75%;
+  margin: 40px 40px 0px 0px;
+}

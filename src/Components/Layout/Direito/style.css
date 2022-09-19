@@ -1,0 +1,81 @@
+.cardD-myProjects{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.myProjectsMain{
+  display: flex;
+  gap: 22px;
+  width: 100%;
+}
+.myProjectsL{
+  width: 50%;
+}
+.myProjectsD{
+  width: 50%;
+}
+.myProjectsFooter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.myProjectsFooterP{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.myProjects-svg{
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.ProjectP{
+  margin-bottom: 30px;
+}
+.svg-p{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.segundaFoto{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.segundaFoto img{
+  border-radius: 50px;
+  width: 100px;
+}
+
+.segundaFotoD p:nth-child(1){
+  font-size: 1.2rem;
+  margin-bottom: 4px;
+}
+.segundaFotoD p:nth-child(2){
+  font-size: 0.8rem;
+  margin-bottom: 21px;
+}
+
+.segundaFotoD p:nth-child(3){
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+.lista-foto ul  {
+  display: flex;
+  gap: 22px;
+
+}
+.lista-foto ul  {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  font-size: 0.8rem;
+}
+
+

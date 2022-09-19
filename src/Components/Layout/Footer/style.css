@@ -1,0 +1,10 @@
+.footer{
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-cards);
+  color: var(--text-color);
+  font-size: 0.7rem;
+}

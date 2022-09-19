@@ -1,0 +1,92 @@
+.cardE-name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px ;
+}
+
+.cardE-name img{
+  border-radius: 50px;
+  border: 4px solid #00FF00;
+  width: 100px;
+}
+
+.cardE-name h3{
+  margin-top: 29px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cardE-name p{
+  margin-top: 5px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.card-contato{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom:10px;
+  margin-left: 15px;
+}
+
+
+.icones-nomes p a{
+  font-size: .7rem;
+}
+
+.tecnologia-titulo{
+  margin-bottom: 20px;
+}
+
+.card-tecnologias{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 0.7rem;
+  text-align:center;
+  padding-left: 15px;
+  gap: 20px;
+  
+}
+
+.card-tecnologias div p {
+  background-color: var(--bg-techs);
+  padding: 4px;
+  font-size: 0.7rem;
+  border-radius: 30px;
+  color: #000000;
+}
+
+.card-tecnologias-gap{
+  margin-top: 15px;
+}
+.experiencias h3{
+  margin-bottom: 25px;
+}
+
+.experiencias ul{
+  padding-left:40px ;
+}
+
+.experiencias ul li{
+  list-style: initial;
+  margin-bottom: 10px;
+}
+.experiencias ul li:nth-child(4){
+  margin-bottom: 0px;
+}
+
+.experiencias ul li p:nth-child(1){
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.experiencias ul li p:nth-child(2){
+  font-size: 0.7rem;
+  font-weight: 300;
+  font-style: italic;
+}
+.experiencias ul li p:nth-child(3){
+  font-size: 0.7rem;
+}

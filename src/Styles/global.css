@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;600&display=swap');
+:root {
+  --body-bg-color: #22212C;
+  --text-color: #837E9F;
+  --bg-cards: #302F3D;
+  --bg-techs: #CB92B1;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  overflow: auto;
+}
+body{
+  background-color: var(--body-bg-color);
+}
+
+.card {
+  background-color: var(--bg-cards);
+  color: var(--text-color);
+  border-radius: 15px;
+  padding: 24px ;
+  margin-bottom: 31px;
+  font-size: 1rem;
+  /* font-size: 100%;
+  overflow: auto; */
+}
+
+.tecnologias-color{
+  background-color: var(--bg-techs);
+}
+svg, a {
+  color: var(--text-color);
+}
+
+@media (max-width : 850px){
+  *{
+    font-size: 14px;
+  }
+}
